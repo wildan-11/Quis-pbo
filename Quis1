@@ -1,0 +1,18 @@
+package quis1;
+
+import java.util.Scanner;
+public class Quis1 {
+
+    public static void main(String[] args) {
+        Scanner penjumlah= new Scanner(System.in);
+        int satu,dua,hasil;
+        System.out.print("Masukan angka ke satu: " );
+        satu = penjumlah.nextInt();
+        System.out.print("Masukan angka ke dua: " );
+        dua = penjumlah.nextInt();
+        hasil=(satu+dua);
+        System.out.println("penjumlahan dari "+ satu +" dan "+ dua+" adalah "+ hasil );
+        System.out.println("Dikerjakan oleh M Wildan Fauzan_22201114");
+    }
+    
+}
